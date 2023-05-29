@@ -1,71 +1,59 @@
-# Getting Started with Create React App
+# Desenvolvendo uma Progressive Web Application com React para Mapear os Dados do COVID-19 Pelo Mundo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de desenvolvimento de uma Progressive Web Application (PWA) usando React, que tem como objetivo mapear os dados do COVID-19 pelo mundo. A aplicação exibe estatísticas atualizadas sobre casos confirmados, óbitos e recuperados em diferentes países, além de fornecer recursos adicionais, como gráficos e filtros interativos.
 
-## Available Scripts
+## Recursos Principais
 
-In the project directory, you can run:
+- Visualização de estatísticas globais e por país: A aplicação exibe dados atualizados do COVID-19 em todo o mundo, permitindo a visualização das estatísticas globais e detalhadas por país.
+- Gráficos interativos: Os dados são apresentados de forma visualmente atraente, por meio de gráficos interativos, facilitando a compreensão e análise das informações.
+- Filtros personalizados: Os usuários podem aplicar filtros personalizados para exibir dados específicos, como datas específicas, casos ativos, novos casos e muito mais.
+- Notificações push: A PWA oferece suporte a notificações push, permitindo que os usuários sejam informados sobre atualizações relevantes relacionadas ao COVID-19.
+- Funciona offline: A aplicação é uma PWA, o que significa que ela funciona mesmo quando não há conexão com a internet. Os dados mais recentes são armazenados em cache para acesso offline.
 
-### `yarn start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: Biblioteca JavaScript de código aberto para criar interfaces de usuário.
+- Material-UI: Biblioteca de componentes para React, que oferece uma ampla variedade de elementos de interface visualmente atraentes e responsivos.
+- Chart.js: Biblioteca de gráficos JavaScript que permite criar gráficos interativos e personalizáveis.
+- Service Worker: Tecnologia que permite que a aplicação funcione offline e tenha suporte a notificações push.
+- API de Dados: Será utilizada uma API de dados confiável e atualizada para obter as informações do COVID-19 por país.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pré-requisitos
 
-### `yarn test`
+Antes de começar, verifique se o seu ambiente de desenvolvimento atende aos seguintes requisitos:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js: Versão 12 ou superior.
+- NPM: Gerenciador de pacotes do Node.js, geralmente instalado junto com o Node.js.
 
-### `yarn build`
+## Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone este repositório em sua máquina local.
+2. Navegue até o diretório do projeto.
+3. Execute o comando `npm install` para instalar todas as dependências.
+4. Execute o comando `npm start` para iniciar a aplicação localmente.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A aplicação estará disponível em `http://localhost:3000` no seu navegador.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribuição
 
-### `yarn eject`
+Contribuições são bem-vindas! Se você tiver alguma sugestão, correção de bugs ou melhorias para o projeto, fique à vontade para abrir uma issue ou enviar um pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Certifique-se de seguir as diretrizes de contribuição e etiqueta do projeto.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Agradecimentos
 
-## Learn More
+Agradecemos a todos os desenvolvedores, colaboradores e mantenedores de bibliotecas de código aberto que tornaram possível este projeto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contato
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Em caso de dúvidas, sugestões
 
-### Code Splitting
+ ou feedback, você pode entrar em contato através do email [educwb@gmail.com].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# covid-dio
+Sinta-se à vontade para personalizar o README de acordo com as especificidades do seu projeto. Certifique-se de incluir informações relevantes sobre como configurar, executar e contribuir para o projeto, além de atribuir créditos adequados aos criadores de bibliotecas e serviços utilizados.
